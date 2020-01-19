@@ -13,6 +13,20 @@ module.exports = (options) => {
                   ]
                 }
             },
+            {
+              resolve: 'gatsby-plugin-page-creator',
+              options: {
+                  path: `${__dirname}/src/pages`
+              }
+          },
+            'gatsby-transformer-json',
+            {
+              resolve: 'gatsby-source-filesystem',
+              options: {
+                path: 'testimonials',
+                name: 'testimonials'
+              },
+            },
             'gatsby-plugin-emotion',
             'gatsby-plugin-sharp',
             'gatsby-transformer-sharp',
