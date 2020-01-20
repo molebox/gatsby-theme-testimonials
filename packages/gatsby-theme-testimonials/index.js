@@ -1,0 +1,1 @@
+export { default as TestimonialCard } from './src/components/TestimonialCard';
