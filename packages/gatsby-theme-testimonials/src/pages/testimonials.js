@@ -7,8 +7,11 @@ export default ({ data }) => {
   console.log({ data });
   const { edges } = data.allTestimonialsJson;
   return (
-    <div>
-      Yo!
+    <div sx={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+    }}>
       {edges.map(({ node: testimonial }) => (
         <TestimonialCard testimonial={testimonial} />
       ))}
