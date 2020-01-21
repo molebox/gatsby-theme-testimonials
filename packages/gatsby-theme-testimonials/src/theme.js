@@ -14,7 +14,7 @@ export default {
     decoGreenDark: "#2E4542",
     decoGreen: "#3C5A54",
     cream: "#EFEDD8",
-    border: '#949494'
+    border: "#949494"
 
     // modes: {
     // 	// this is the dark color mode colors

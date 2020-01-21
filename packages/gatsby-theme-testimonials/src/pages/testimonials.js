@@ -4,16 +4,17 @@ import TestimonialCard from "../components/TestimonialCard";
 import { graphql } from "gatsby";
 
 export default ({ data }) => {
-  console.log({ data });
   const { edges } = data.allTestimonialsJson;
   return (
-    <div sx={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-    }}>
+    <div
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
+      }}
+    >
       {edges.map(({ node: testimonial }) => (
-        <TestimonialCard testimonial={testimonial} />
+        <TestimonialCard key={testimonial.name} testimonial={testimonial} />
       ))}
     </div>
   );
