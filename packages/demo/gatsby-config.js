@@ -1,5 +1,10 @@
 module.exports = {
     plugins: [
-        'gatsby-theme-testimonials'
+        {
+           resolve: 'gatsby-theme-testimonials',
+           options: {
+               classic: true
+           }
+        }
     ]
 }

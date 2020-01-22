@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "../context";
-import TestimonialCard from "../components/TestimonialCard";
+import Classic from "../components/Classic";
 import { graphql } from "gatsby";
 
 export default ({ data }) => {
@@ -14,7 +14,7 @@ export default ({ data }) => {
       }}
     >
       {edges.map(({ node: testimonial }) => (
-        <TestimonialCard key={testimonial.name} testimonial={testimonial} />
+        <Classic key={testimonial.name} testimonial={testimonial} />
       ))}
     </div>
   );
@@ -28,6 +28,8 @@ export const query = graphql`
           name
           company
           blurb
+          twitter
+          linkedIn
         }
       }
     }

@@ -1,7 +1,14 @@
 module.exports = (options) => {
-    const {} = options;
+    const {
+      classic,
+      modern
+    } = options;
 
     return {
+      siteMetadata: {
+        classic: classic ? classic : false,
+        modern: modern ? modern : false
+      },
         plugins: [
             {
                 resolve: 'gatsby-plugin-google-fonts',
