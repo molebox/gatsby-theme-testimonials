@@ -14,7 +14,7 @@ module.exports = (options) => {
                 resolve: 'gatsby-plugin-google-fonts',
                 options: {
                   fonts: [
-                    'Poiret One',
+                    'Nunito',
                     'Open Sans',
                     'source sans pro\:300,400,400i,700' 
                   ]

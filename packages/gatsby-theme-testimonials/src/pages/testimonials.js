@@ -2,6 +2,7 @@
 import { jsx } from "../context";
 import Classic from "../components/Classic";
 import { graphql } from "gatsby";
+import TestimonialCard from "../components/TestimonialCard";
 
 export default ({ data }) => {
   const { edges } = data.allTestimonialsJson;
@@ -10,11 +11,13 @@ export default ({ data }) => {
       sx={{
         display: "flex",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        backgroundColor: "#E0E5EC",
+        height: "100vh"
       }}
     >
       {edges.map(({ node: testimonial }) => (
-        <Classic key={testimonial.name} testimonial={testimonial} />
+        <TestimonialCard key={testimonial.name} testimonial={testimonial} />
       ))}
     </div>
   );

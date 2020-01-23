@@ -9795,6 +9795,13 @@ react-side-effect@^1.1.0:
   dependencies:
     shallowequal "^1.0.1"
 
+react-social-icons@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-4.1.0.tgz#d8c1f846783cba15ae0e75704377bc67805f4c20"
+  integrity sha512-wbwSbyS4QWjpL6U+GFZDBrE5Ao8px0QkRgo0XkxDHF2LNRsFNErSDnIPKiowhQ7t7IyrSA2HYrEw7ETgpVTg+Q==
+  dependencies:
+    prop-types "^15.6.2"
+
 react@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
@@ -11182,6 +11189,11 @@ style-loader@^0.23.1:
   dependencies:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
+
+styled-breakpoints@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/styled-breakpoints/-/styled-breakpoints-7.2.0.tgz#1d219010b0a23b5deda100ad99d595c337299b4a"
+  integrity sha512-4kGIGOyoRKSrgSBm6JLi2ZMleu5DuMUEP2YybpnegBJsGAG/oV48gG7g2/i7drT3HjMc/UV7/dCiB+Sb12yFbg==
 
 stylehacks@^4.0.0:
   version "4.0.3"

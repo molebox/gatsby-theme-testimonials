@@ -27,41 +27,53 @@ export default ({ testimonial }) => {
     <Card
       sx={{
         borderColor: "border",
-        backgroundColor: 'cream'
+        backgroundColor: "cream"
       }}
     >
       <blockquote>
-        <Quote sx={{
-          fontFamily: "heading",
-          letterSpacing: "body",
-          fontWeight: "bold",
-          color: "decoRed",
-        }}>
+        <Quote
+          sx={{
+            fontFamily: "heading",
+            letterSpacing: "body",
+            fontWeight: "bold",
+            color: "decoRed"
+          }}
+        >
           {blurb}
         </Quote>
       </blockquote>
       <Footer>
         {twitter ? (
-          <p sx={{
-            gridColumn: 1,
-            margin: '0',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}>{twitter}</p>
+          <p
+            sx={{
+              gridColumn: 1,
+              margin: "0",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center"
+            }}
+          >
+            {twitter}
+          </p>
         ) : null}
         {linkedIn ? (
-          <p sx={{
-            gridColumn: 2,
-            margin: '0',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}>{linkedIn}</p>
+          <p
+            sx={{
+              gridColumn: 2,
+              margin: "0",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center"
+            }}
+          >
+            {linkedIn}
+          </p>
         ) : null}
-        <div sx={{
-          gridColumn: 3
-        }}>
+        <div
+          sx={{
+            gridColumn: 3
+          }}
+        >
           <h3
             sx={{
               fontFamily: "heading",

@@ -8,8 +8,8 @@ export default {
   colors: {
     // these are the default colors
     // http://portfolios.aiga.org/gallery/32818111/Art-Deco-Playing-Card
-    text: "#000000",
-    background: "#D6AF82",
+    text: "#001f3f",
+    background: "#E0E5EC",
     decoRed: "#9F1E23",
     decoGreenDark: "#2E4542",
     decoGreen: "#3C5A54",
@@ -26,7 +26,7 @@ export default {
   },
   fonts: {
     body: "Open Sans",
-    heading: "Poiret One"
+    heading: "Nunito"
   },
   fontWeights: {
     body: 300,
