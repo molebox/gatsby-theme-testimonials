@@ -1,14 +1,4 @@
-module.exports = (options) => {
-    const {
-      classic,
-      modern
-    } = options;
-
-    return {
-      siteMetadata: {
-        classic: classic ? classic : false,
-        modern: modern ? modern : false
-      },
+module.exports = {
         plugins: [
             {
                 resolve: 'gatsby-plugin-google-fonts',
@@ -20,12 +10,6 @@ module.exports = (options) => {
                   ]
                 }
             },
-            {
-              resolve: 'gatsby-plugin-page-creator',
-              options: {
-                  path: `${__dirname}/src/pages`
-              }
-          },
             'gatsby-transformer-json',
             {
               resolve: 'gatsby-source-filesystem',
@@ -35,12 +19,8 @@ module.exports = (options) => {
               },
             },
             'gatsby-plugin-emotion',
-            'gatsby-plugin-sharp',
-            'gatsby-transformer-sharp',
-            'gatsby-image',
             'gatsby-plugin-sitemap',
             'gatsby-plugin-robots-txt'
         ]
-    }
 
 }

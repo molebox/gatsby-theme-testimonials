@@ -1,10 +1,9 @@
 import styled from "@emotion/styled";
 
 export const Quote = styled.p`
-  font-size: 1.1em;
+  font-size: 1em;
   margin: 0 auto;
   quotes: "\\201C""\\201D""\\2018""\\2019";
-  // padding: 10px 20px;
   padding-top: 1.3em;
   line-height: 1.4;
 
@@ -13,9 +12,9 @@ export const Quote = styled.p`
     display: inline;
     height: 0;
     line-height: 0;
-    left: -5px;
+    left: -15px;
     position: relative;
-    top: 15px;
+    top: 20px;
     font-size: 3em;
   }
 
@@ -26,7 +25,7 @@ export const Quote = styled.p`
     line-height: 0;
     left: 10px;
     position: relative;
-    top: 35px;
+    top: 27px;
     font-size: 3em;
   }
 `;

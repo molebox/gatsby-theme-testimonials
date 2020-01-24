@@ -1,1 +1,2 @@
-export { default as Classic } from './src/components/Classic';
+export { default as TestimonialCard } from './src/components/TestimonialCard';
+export { default as TestimonialSection } from './src/components/TestimonialSection';

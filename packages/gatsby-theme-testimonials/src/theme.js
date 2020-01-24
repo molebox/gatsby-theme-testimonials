@@ -7,22 +7,8 @@ export default {
   useCustomProperties: true,
   colors: {
     // these are the default colors
-    // http://portfolios.aiga.org/gallery/32818111/Art-Deco-Playing-Card
     text: "#001f3f",
-    background: "#E0E5EC",
-    decoRed: "#9F1E23",
-    decoGreenDark: "#2E4542",
-    decoGreen: "#3C5A54",
-    cream: "#EFEDD8",
-    border: "#949494"
-
-    // modes: {
-    // 	// this is the dark color mode colors
-    // 	dark: {
-    // 		text: "#f46049",
-    // 		background: "#202020",
-    // 	},
-    // },
+    background: "#E0E5EC"
   },
   fonts: {
     body: "Open Sans",
@@ -35,12 +21,17 @@ export default {
   },
   lineHeights: {
     body: "110%",
-    heading: 1.125,
-    logo: "82px"
+    heading: 1.125
   },
   letterSpacing: {
     body: "2px",
     text: "5px"
   },
-  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72]
+  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],
+  boxShadow: {
+    neumorphism:
+      "9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.6)",
+    neumorphismHover:
+      "inset 9px 9px 16px rgb(163, 177, 198, 0.4), inset -9px -9px 16px rgba(255, 255, 255, 1)"
+  }
 };

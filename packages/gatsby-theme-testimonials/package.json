@@ -11,28 +11,35 @@
     "pretty": "prettier --write \"src/**/*js\"",
     "sitemap": "gatsby build && gatsby serve"
   },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/molebox/gatsby-theme-testimonials"
+    },
+    "keywords": [
+      "gatsby",
+      "testimonials",
+      "gatsby-plugin",
+      "gatsby-theme",
+      "react",
+      "theme-ui",
+      "emotion"
+    ],
   "dependencies": {
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
     "@mdx-js/react": "^1.5.5",
     "gatsby": "^2.18.24",
-    "gatsby-image": "^2.2.39",
     "gatsby-plugin-emotion": "^4.1.21",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-page-creator": "^2.1.38",
     "gatsby-plugin-robots-txt": "^1.5.0",
-    "gatsby-plugin-sharp": "^2.3.13",
     "gatsby-plugin-sitemap": "^2.2.26",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-json": "^2.2.25",
-    "gatsby-transformer-sharp": "^2.3.13",
     "isolated-theme-ui": "^1.0.1",
     "mkdirp": "^0.5.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
     "react-social-icons": "^4.1.0",
-    "styled-breakpoints": "^7.2.0",
     "theme-ui": "^0.2.52"
   },
   "peerDependencies": {
