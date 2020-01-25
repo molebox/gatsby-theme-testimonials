@@ -8,6 +8,7 @@ const Card = styled.div`
   padding: 2em;
   max-width: 400px;
   border-radius: 0.5em;
+  height: min-content;
 `;
 
 const Content = styled.div`
@@ -27,6 +28,19 @@ const Contact = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
+  & > h3,
+  h4 {
+    font-size: 0.8em;
+  }
+
+  // Desktop
+  @media (min-width: 48em) {
+    & > h3,
+    h4 {
+      font-size: 1em;
+    }
+  }
 `;
 
 const Links = styled.div`
@@ -45,6 +59,14 @@ const Circle = styled.div`
   justify-content: center;
   cursor: pointer;
   transition: box-shadow 0.7s ease-in-out;
+
+  // Desktop
+  @media (min-width: 48em) {
+    & > h3,
+    h4 {
+      font-size: 1em;
+    }
+  }
 `;
 
 export default ({ testimonial }) => {

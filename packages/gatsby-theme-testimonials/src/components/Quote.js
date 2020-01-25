@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const Quote = styled.p`
-  font-size: 1em;
+  font-size: 0.7em;
   margin: 0 auto;
   quotes: "\\201C""\\201D""\\2018""\\2019";
   padding-top: 1.3em;
@@ -12,9 +12,9 @@ export const Quote = styled.p`
     display: inline;
     height: 0;
     line-height: 0;
-    left: -15px;
+    left: -10px;
     position: relative;
-    top: 20px;
+    top: 15px;
     font-size: 3em;
   }
 
@@ -23,9 +23,36 @@ export const Quote = styled.p`
     display: inline;
     height: 0;
     line-height: 0;
-    left: 10px;
+    left: 5px;
     position: relative;
-    top: 27px;
+    top: 22px;
     font-size: 3em;
+  }
+
+  // Desktop
+  @media (min-width: 48em) {
+    font-size: 1em;
+
+    &::before {
+      content: open-quote;
+      display: inline;
+      height: 0;
+      line-height: 0;
+      left: -15px;
+      position: relative;
+      top: 20px;
+      font-size: 3em;
+    }
+
+    &::after {
+      content: close-quote;
+      display: inline;
+      height: 0;
+      line-height: 0;
+      left: 10px;
+      position: relative;
+      top: 27px;
+      font-size: 3em;
+    }
   }
 `;
