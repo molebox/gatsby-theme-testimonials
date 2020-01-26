@@ -11,19 +11,19 @@
     "pretty": "prettier --write \"src/**/*js\"",
     "sitemap": "gatsby build && gatsby serve"
   },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/molebox/gatsby-theme-testimonials"
-    },
-    "keywords": [
-      "gatsby",
-      "testimonials",
-      "gatsby-plugin",
-      "gatsby-theme",
-      "react",
-      "theme-ui",
-      "emotion"
-    ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/molebox/gatsby-theme-testimonials"
+  },
+  "keywords": [
+    "gatsby",
+    "testimonials",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "react",
+    "theme-ui",
+    "emotion"
+  ],
   "dependencies": {
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
@@ -39,6 +39,7 @@
     "mkdirp": "^0.5.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
     "react-social-icons": "^4.1.0",
     "theme-ui": "^0.2.52"
   },

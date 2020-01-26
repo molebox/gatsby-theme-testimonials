@@ -3,6 +3,7 @@ import { jsx } from "../context";
 import styled from "@emotion/styled";
 import { Quote } from "./Quote";
 import { SocialIcon } from "react-social-icons";
+import { FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Card = styled.div`
   padding: 2em;
@@ -56,6 +57,8 @@ const Circle = styled.div`
   margin: 0.5em;
   width: 2em;
   height: 2em;
+  display: flex;
+  align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: box-shadow 0.7s ease-in-out;
@@ -121,21 +124,14 @@ export default ({ testimonial }) => {
                 <Circle
                   sx={{
                     backgroundColor: "background",
+                    color: "text",
                     boxShadow: "neumorphism",
                     ":hover": {
                       boxShadow: "neumorphismHover"
                     }
                   }}
                 >
-                  <SocialIcon
-                    style={{
-                      height: 35,
-                      width: 35
-                    }}
-                    network="twitter"
-                    bgColor={twitter ? "#E0E5EC" : undefined}
-                    fgColor={twitter ? "#001f3f" : undefined}
-                  />
+                  <FaTwitter />
                 </Circle>
               </a>
             ) : null}
@@ -144,21 +140,14 @@ export default ({ testimonial }) => {
                 <Circle
                   sx={{
                     backgroundColor: "background",
+                    color: "text",
                     boxShadow: "neumorphism",
                     ":hover": {
                       boxShadow: "neumorphismHover"
                     }
                   }}
                 >
-                  <SocialIcon
-                    style={{
-                      height: 35,
-                      width: 35
-                    }}
-                    network="linkedin"
-                    bgColor={linkedIn ? "#E0E5EC" : undefined}
-                    fgColor={linkedIn ? "#001f3f" : undefined}
-                  />
+                  <FaLinkedin />
                 </Circle>
               </a>
             ) : null}
