@@ -2,6 +2,10 @@
 
 This is Gatsby theme to add customer testimonials to your website. The testimonial cards are exported as a section to just insert into your JSX. You add the data to be displayed via json files located in a testimonials folder at your projects root. This file will be created for you when you install the theme if you don't add it yourself.
 
+The default styling is [neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6), this can be overriden by shadowing the TestimonialCard component.
+
+Example of how this looks in practice: [https://gatsby-theme-testimonials.netlify.com/](https://gatsby-theme-testimonials.netlify.com/)
+
 ## Setup
 
 Install the theme with either yarn `yarn add gatsby-theme-testimonials` or npm `npm i gatsby-theme-testimonials`
