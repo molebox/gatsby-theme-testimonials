@@ -2,8 +2,6 @@
 
 This is Gatsby theme to add customer testimonials to your website. The testimonial cards are exported as a section to just insert into your JSX. You add the data to be displayed via json files located in a testimonials folder at your projects root. This file will be created for you when you install the theme if you don't add it yourself.
 
-![Example](./images/gatsby-theme-testimonials-example.png)
-
 ## Setup
 
 Install the theme with either yarn `yarn add gatsby-theme-testimonials` or npm `npm i gatsby-theme-testimonials`
@@ -18,7 +16,7 @@ module.exports = {
 }
 ```
 
-As mentioned above, the testimonials folder will be created at your projects root on first run, but otherwise you can create that folder.
+The testimonials folder will be created at your projects root on first run, but otherwise you can create that folder.
 
 The expected json format for each file is like this: 
 
@@ -35,6 +33,23 @@ The expected json format for each file is like this:
 The naming of the file is up to you, i suggest naming them after the author of the testimonial.
 
 The twitter and linkedIn links can be skipped if none are supplied by the testimonial author, the cards will render both, one or none depending on if you set them in the json file.
+
+Import the `TestimonialSection` from the theme and insert it anywhere in your JSX
+
+```jsx
+import React from 'react';
+import {TestimonialSection} from 'gatsby-theme-testimonials';
+
+export default () => (
+    <section>
+        Some section of your website
+    </section>
+      <TestimonialSection/>
+    <section>
+        Some other section of your website
+    </section>
+);
+```
 
 
 ## Built With

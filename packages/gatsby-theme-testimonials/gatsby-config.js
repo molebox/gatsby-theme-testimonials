@@ -18,9 +18,7 @@ module.exports = {
                 name: 'testimonials'
               },
             },
-            'gatsby-plugin-emotion',
-            'gatsby-plugin-sitemap',
-            'gatsby-plugin-robots-txt'
+            'gatsby-plugin-emotion'
         ]
 
 }
