@@ -6,7 +6,7 @@ import { FaTwitter, FaLinkedin  } from 'react-icons/fa';
 
 const Card = styled.div`
   padding: 2em;
-  max-width: 400px;
+  max-width: 500px;
   border-radius: 0.5em;
   height: min-content;
 `;

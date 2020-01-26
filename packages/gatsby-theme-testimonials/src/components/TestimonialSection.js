@@ -10,8 +10,6 @@ const Section = styled.section`
   grid-auto-rows: min-content;
   grid-gap: 2em;
   padding: 1em;
-  max-width: 1200px;
-  margin: 1em auto;
 
   // Desktop
   @media (min-width: 48em) {
