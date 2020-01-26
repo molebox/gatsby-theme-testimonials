@@ -1,7 +1,7 @@
 {
-    "name": "John Doe",
-    "company": "Doe Web Design",
+    "name": "Peter Parker",
+    "company": "Web Design",
     "blurb": "Tempor ipsum mollit eiusmod deserunt.",
-    "twitter": "tweet",
-    "linkedIn": "linked"
+    "twitter": "https://twitter.com/studio_hungry",
+    "linkedIn": "https://www.linkedin.com/in/richard-haines-578464176/"
 }
