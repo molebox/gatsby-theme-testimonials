@@ -8,8 +8,7 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "pretty-check": "prettier --check \"src/**/*.{js}\"",
-    "pretty": "prettier --write \"src/**/*js\"",
-    "sitemap": "gatsby build && gatsby serve"
+    "pretty": "prettier --write \"src/**/*js\""
   },
   "repository": {
     "type": "git",
@@ -31,8 +30,6 @@
     "gatsby": "^2.18.24",
     "gatsby-plugin-emotion": "^4.1.21",
     "gatsby-plugin-google-fonts": "^1.0.1",
-    "gatsby-plugin-robots-txt": "^1.5.0",
-    "gatsby-plugin-sitemap": "^2.2.26",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-json": "^2.2.25",
     "isolated-theme-ui": "^1.0.1",
@@ -40,7 +37,6 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.8.0",
-    "react-social-icons": "^4.1.0",
     "theme-ui": "^0.2.52"
   },
   "peerDependencies": {
