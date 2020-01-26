@@ -38,9 +38,9 @@ export const Quote = styled.p`
       display: inline;
       height: 0;
       line-height: 0;
-      left: -15px;
+      left: -5px;
       position: relative;
-      top: 20px;
+      top: 12px;
       font-size: 3em;
     }
 
