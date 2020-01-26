@@ -16,7 +16,7 @@ module.exports = {
 }
 ```
 
-As mentioned above, the testimonials folder will be created at your projects root on first run, but otherwise you can create that folder.
+The testimonials folder will be created at your projects root on first run, but otherwise you can create that folder.
 
 The expected json format for each file is like this: 
 
@@ -33,6 +33,23 @@ The expected json format for each file is like this:
 The naming of the file is up to you, i suggest naming them after the author of the testimonial.
 
 The twitter and linkedIn links can be skipped if none are supplied by the testimonial author, the cards will render both, one or none depending on if you set them in the json file.
+
+Import the `TestimonialSection` from the theme and insert it anywhere in your JSX
+
+```jsx
+import React from 'react';
+import {TestimonialSection} from 'gatsby-theme-testimonials';
+
+export default () => (
+    <section>
+        Some section of your website
+    </section>
+      <TestimonialSection/>
+    <section>
+        Some other section of your website
+    </section>
+);
+```
 
 
 ## Built With
