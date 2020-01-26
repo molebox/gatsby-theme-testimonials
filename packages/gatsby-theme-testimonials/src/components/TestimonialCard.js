@@ -17,37 +17,61 @@ const Content = styled.div`
 `;
 
 const Footer = styled.footer`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 2.5em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
   font-size: 1em;
+
+  // Desktop
+  @media (min-width: 48em) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2em;
+    font-size: 1em;
+  }
 `;
 
 const Contact = styled.div`
-  grid-column: 1;
+  grid-row: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 
   & > h3,
   h4 {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 
   // Desktop
   @media (min-width: 48em) {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     & > h3,
     h4 {
-      font-size: 1em;
+      font-size: 0.8em;
     }
   }
 `;
 
 const Links = styled.div`
-  grid-column: 2;
+  grid-row: 2;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 1em;
+
+  // Desktop
+  @media (min-width: 48em) {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1em;
+  }
 `;
 
 const Circle = styled.div`
@@ -60,7 +84,6 @@ const Circle = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: box-shadow 0.7s ease-in-out;
 
   // Desktop
   @media (min-width: 48em) {
@@ -125,6 +148,7 @@ export default ({ testimonial }) => {
                   backgroundColor: "background",
                   color: 'text',
                   boxShadow: "neumorphism",
+                  transition: 'box-shadow 0.7s ease-in-out',
                   ":hover": {
                     boxShadow: "neumorphismHover"
                   }
@@ -141,6 +165,7 @@ export default ({ testimonial }) => {
                     backgroundColor: "background",
                     color: 'text',
                     boxShadow: "neumorphism",
+                    transition: 'box-shadow 0.7s ease-in-out',
                     ":hover": {
                       boxShadow: "neumorphismHover"
                     }

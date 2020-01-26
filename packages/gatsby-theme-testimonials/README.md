@@ -28,7 +28,7 @@ The expected json format for each file is like this:
 {
     "name": "Carol Danvers",
     "company": "Marveless Wordpress",
-    "blurb": "Tempor ipsum mollit eiusmod deserunt culpa Lorem incididunt est fugiat anim ea quis adipisicing. Officia deserunt sunt enim voluptate sit ut reprehenderit labore elit. Est quis duis exercitation et culpa magna excepteur exercitation ad ipsum amet nulla labore ullamco. Voluptate proident in minim enim sit cupidatat sunt adipisicing.",
+    "blurb": "I’ve been fighting with one arm tied behind my back, but what happens when I’m finally set free?",
     "twitter": "https://twitter.com/studio_hungry",
     "linkedIn": "https://www.linkedin.com/in/richard-haines-578464176/"
 }

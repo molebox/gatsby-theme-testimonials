@@ -32,10 +32,10 @@ const Header = styled.header`
 `;
 
 const Container = styled.main`
-margin: 1em 2em;
-border-radius: 0.5em;
-padding: 1em;
-box-shadow: inset 6px 6px 13px rgb(163, 177, 198, 0.4), inset -6px -6px 13px rgba(255, 255, 255, 0.7);
+    margin: 1em 2em;
+    border-radius: 0.5em;
+    padding: 1em;
+    box-shadow: inset 6px 6px 13px rgb(163, 177, 198, 0.4), inset -6px -6px 13px rgba(255, 255, 255, 0.7);
 `;
 
 export default () => {
@@ -70,6 +70,20 @@ export default () => {
                 margin: '1em 2em'
             }}>
                 The default styling is <a href="https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6">neumorphism</a>, this can be overriden by shadowing the TestimonialCard component.
+            </p>
+            <p sx={{
+                fontFamily: 'Nunito',
+                fontWeight: '400',
+                margin: '1em 2em'
+            }}>
+                NPM package: <a href="https://www.npmjs.com/package/gatsby-theme-testimonials">gatsby-theme-testimonials</a>
+            </p>
+            <p sx={{
+                fontFamily: 'Nunito',
+                fontWeight: '400',
+                margin: '1em 2em'
+            }}>
+                GitHub repository: <a href="https://github.com/molebox/gatsby-theme-testimonials">github.com/molebox/gatsby-theme-testimonials</a>
             </p>
         </Header>
         <Container>
