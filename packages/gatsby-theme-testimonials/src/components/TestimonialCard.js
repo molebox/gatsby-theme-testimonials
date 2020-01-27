@@ -2,7 +2,7 @@
 import { jsx } from "../context";
 import styled from "@emotion/styled";
 import { Quote } from "./Quote";
-import { FaTwitter, FaLinkedin  } from 'react-icons/fa';
+import { FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Card = styled.div`
   padding: 2em;
@@ -143,35 +143,35 @@ export default ({ testimonial }) => {
           <Links>
             {!!twitter ? (
               <a href={twitter}>
-              <Circle
-                sx={{
-                  backgroundColor: "background",
-                  color: 'text',
-                  boxShadow: "neumorphism",
-                  transition: 'box-shadow 0.7s ease-in-out',
-                  ":hover": {
-                    boxShadow: "neumorphismHover"
-                  }
-                }}
-              >
-                <FaTwitter/>
-              </Circle>
-            </a>
+                <Circle
+                  sx={{
+                    backgroundColor: "background",
+                    color: "text",
+                    boxShadow: "neumorphism",
+                    transition: "box-shadow 0.7s ease-in-out",
+                    ":hover": {
+                      boxShadow: "neumorphismHover"
+                    }
+                  }}
+                >
+                  <FaTwitter />
+                </Circle>
+              </a>
             ) : null}
             {!!linkedIn ? (
               <a href={linkedIn}>
                 <Circle
                   sx={{
                     backgroundColor: "background",
-                    color: 'text',
+                    color: "text",
                     boxShadow: "neumorphism",
-                    transition: 'box-shadow 0.7s ease-in-out',
+                    transition: "box-shadow 0.7s ease-in-out",
                     ":hover": {
                       boxShadow: "neumorphismHover"
                     }
                   }}
                 >
-                  <FaLinkedin/>
+                  <FaLinkedin />
                 </Circle>
               </a>
             ) : null}

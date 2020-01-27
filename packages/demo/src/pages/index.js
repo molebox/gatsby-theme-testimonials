@@ -105,6 +105,7 @@ export default () => {
                 The default styling is <a href="https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6">neumorphism</a>, this can be overriden by shadowing the TestimonialCard component.
             </p>
             <Links>
+            <a href="https://www.npmjs.com/package/gatsby-theme-testimonials">
             <Box>
             <p sx={{
                 fontFamily: 'Nunito',
@@ -118,9 +119,12 @@ export default () => {
                     color: '#001f3f',
                     fontSize: '2em',
                     marginRight: '1em'
-                    }}/> <a href="https://www.npmjs.com/package/gatsby-theme-testimonials">gatsby-theme-testimonials</a>
+                    }}/>
+                    gatsby-theme-testimonials
             </p>
             </Box>
+            </a>
+            <a href="https://github.com/molebox/gatsby-theme-testimonials">
             <Box>
             <p sx={{
                 fontFamily: 'Nunito',
@@ -134,9 +138,11 @@ export default () => {
                     color: '#001f3f',
                     fontSize: '2em',
                     marginRight: '1em'
-                    }}/> <a href="https://github.com/molebox/gatsby-theme-testimonials">github.com/molebox/gatsby-theme-testimonials</a>
+                    }}/>
+                    github.com/molebox/gatsby-theme-testimonials
             </p>
             </Box>
+            </a>
             </Links>
            
         </Header>
