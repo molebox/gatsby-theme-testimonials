@@ -30,8 +30,8 @@ export default {
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],
   boxShadow: {
     neumorphism:
-      "9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5)",
+      "9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5)",
     neumorphismHover:
-      "inset 6px 6px 13px rgb(163, 177, 198, 0.4), inset -6px -6px 13px rgba(255, 255, 255, 1)"
+      "inset 6px 6px 13px rgba(163, 177, 198, 0.4), inset -6px -6px 13px rgba(255, 255, 255, 1)"
   }
 };
